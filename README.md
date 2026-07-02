@@ -38,7 +38,7 @@ Aplikasi ini menghadirkan desain UI modern bertema gelap (**Premium Glassmorphis
 
 | No. | Nama Lengkap | NIM | Kelas | Peran dalam Tim |
 | :---: | :--- | :---: | :---: | :--- |
-| 1 | **Nama Anggota 1** | `__________` | `__________` | 📱 Android Developer |
+| 1 | **Nama Anggota 1** | `Affari Rizky F` | `24552011205` | 📱 Android Developer |
 | 2 | **Nama Anggota 2** | `__________` | `__________` | 🎨 UI/UX Designer |
 | 3 | **Nama Anggota 3** | `__________` | `__________` | 🧪 QA Engineer |
 
