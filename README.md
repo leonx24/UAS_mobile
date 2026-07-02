@@ -1,96 +1,187 @@
-# 🚀 WorkSync - Employee Tasks Management System
+<div align="center">
 
-WorkSync adalah aplikasi Android manajemen tugas karyawan berbasis peran (*role-based*) yang dirancang khusus untuk bisnis jasa pembuatan website dan aplikasi. Aplikasi ini dikembangkan sebagai proyek tugas **UAS Pemrograman Mobile 1**.
+# 🚀 WorkSync
+### Employee Tasks Management System
 
-Hierarki data diatur terstruktur secara efisien: **Client ➔ Project ➔ Task**. Aplikasi ini menggunakan desain UI modern bertema gelap (**Premium Glassmorphism**) di halaman login, dipadukan dengan **Header Gradient Melengkung** di seluruh tab navigasi utama untuk menghadirkan pengalaman visual yang bersih, modern, dan profesional.
+**Aplikasi manajemen tugas karyawan berbasis peran (Role-Based) untuk bisnis jasa pembuatan website & aplikasi**
+
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Language](https://img.shields.io/badge/Language-Kotlin%2FJava-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![SDK](https://img.shields.io/badge/Min%20SDK-34-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-UAS%20Project-orange?style=for-the-badge)
+
+<br/>
+
+*Dikembangkan sebagai proyek Ujian Akhir Semester — Pemrograman Mobile 1*
+
+</div>
 
 ---
 
-## 👥 Anggota Kelompok (UAS Pemrograman Mobile 1)
+## 📌 Tentang Aplikasi
 
-Berikut adalah identitas pengembang aplikasi:
+**WorkSync** adalah aplikasi Android manajemen tugas karyawan berbasis peran (*role-based*) yang dirancang khusus untuk bisnis jasa pembuatan website dan aplikasi. Hierarki data diatur secara terstruktur dan efisien:
+
+<div align="center">
+
+**`Client`**  ➔  **`Project`**  ➔  **`Task`**
+
+</div>
+
+Aplikasi ini menghadirkan desain UI modern bertema gelap (**Premium Glassmorphism**) di halaman login, dipadukan dengan **Header Gradient Melengkung** di seluruh tab navigasi utama — menghasilkan pengalaman visual yang bersih, modern, dan profesional.
+
+---
+
+## 👥 Anggota Kelompok
+
+<div align="center">
 
 | No. | Nama Lengkap | NIM | Kelas | Peran dalam Tim |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **Nama Anggota 1** | `__________` | `__________` | Android Developer |
-| 2 | **Nama Anggota 2** | `__________` | `__________` | UI/UX Designer |
-| 3 | **Nama Anggota 3** | `__________` | `__________` | QA Engineer |
+| :---: | :--- | :---: | :---: | :--- |
+| 1 | **Nama Anggota 1** | `__________` | `__________` | 📱 Android Developer |
+| 2 | **Nama Anggota 2** | `__________` | `__________` | 🎨 UI/UX Designer |
+| 3 | **Nama Anggota 3** | `__________` | `__________` | 🧪 QA Engineer |
+
+</div>
 
 ---
 
-## 🔑 Informasi Akun Login (Demo)
+## 🔑 Akun Demo (Login)
 
-Aplikasi memiliki 2 peran (*role*) utama yang membatasi hak akses fitur pada dashboard dan detail proyek:
+Aplikasi memiliki **2 peran utama** yang membatasi hak akses fitur pada dashboard dan detail proyek.
 
-| Peran (Role) | Email | Password | Nama | Akses Utama |
-| :--- | :--- | :--- | :--- | :--- |
-| **Project Manager (PM)** | `pm@worksync.com` | `pm123` | Leon | Hak penuh membuat proyek, mengedit proyek, menghapus proyek, dan membuat tugas. |
-| **Karyawan / Staff** | `staff@worksync.com` | `staff123` | Andi | Hak melihat proyek, melihat tugas, memperbarui status tugas, dan melampirkan berkas. |
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
----
+### 💼 Project Manager
+**Nama:** Leon
 
-## ✨ Fitur-Fitur Unggulan
+| Field | Value |
+|---|---|
+| 📧 Email | `pm@worksync.com` |
+| 🔒 Password | `pm123` |
 
-*   **🛡️ Role-Based Access Control (RBAC)**
-    Membatasi tombol penambahan proyek, penyuntingan, dan pembuatan tugas hanya untuk akun dengan role *Project Manager*.
-*   **💾 Database Persisten Lokal (SharedPreferences & Gson)**
-    Mengamankan penyimpanan data proyek, tugas, dan histori aktivitas langsung ke memori lokal HP. Data tidak akan hilang saat aplikasi ditutup atau HP dimatikan.
-*   **📊 Statistik Dashboard Dinamis**
-    Menampilkan visualisasi progress kerja secara *realtime* di dashboard utama (Jumlah Proyek, Tugas Aktif, Tugas Sedang Dikerjakan, dan Tugas Selesai).
-*   **📎 File Picker Manager Terintegrasi**
-    Membuka File Manager bawaan HP saat mengklik "Attach File" di detail tugas, membolehkan unggah berbagai tipe file (`*/*`), dan menampilkan nama file asli secara dinamis.
-*   **🔍 Kolom Pencarian Cerdas & Filter Prioritas**
-    Sistem pencarian independen di tab home untuk menyaring tugas berdasarkan kata kunci tertentu, tanpa memengaruhi atau mengosongkan daftar proyek saat berpindah tab.
-*   **👤 Manajemen Token Sesi (Session Token)**
-    Menggunakan `TokenManager` untuk mengenkripsi status login. Sekali login, pengguna tidak perlu mengetik ulang email & password saat aplikasi dibuka kembali.
+**Hak akses:**
+- ✅ Membuat proyek
+- ✅ Mengedit proyek
+- ✅ Menghapus proyek
+- ✅ Membuat tugas
 
----
+</td>
+<td width="50%" valign="top">
 
-## 📖 Panduan Lengkap Cara Pakai (User Guide)
+### 👷 Karyawan / Staff
+**Nama:** Andi
+
+| Field | Value |
+|---|---|
+| 📧 Email | `staff@worksync.com` |
+| 🔒 Password | `staff123` |
+
+**Hak akses:**
+- ✅ Melihat proyek
+- ✅ Melihat tugas
+- ✅ Memperbarui status tugas
+- ✅ Melampirkan berkas
+
+</td>
+</tr>
+</table>
 
 > [!IMPORTANT]
 > Mode demo saat ini berjalan dalam penyimpanan lokal persisten (*offline data memory*). Seluruh perubahan data akan langsung tersimpan di HP masing-masing pengguna.
 
-### 💻 A. Sebagai Project Manager (PM)
-1. **Login**: Masuk menggunakan email `pm@worksync.com` dan password `pm123`.
-2. **Dashboard & Statistik**: Pantau total proyek aktif dan jumlah tugas yang terbagi berdasarkan status di bagian atas dashboard.
-3. **Membuat Proyek Baru**: Klik tombol Floating Action Button (**FAB ➕**) di pojok kanan bawah dashboard, pilih **"New Project"**, isi nama proyek, nama klien, tenggat waktu, dan jumlah anggota, lalu klik **Save Project**.
-4. **Melihat & Mengedit Proyek**: Masuk ke tab **Projects**, klik proyek yang Anda buat. Di halaman detail, Anda dapat mengklik tombol **Edit** untuk mengubah data, atau **Delete** untuk menghapus proyek tersebut.
+---
+
+## ✨ Fitur Unggulan
+
+<div align="center">
+
+| Fitur | Deskripsi |
+| :--- | :--- |
+| 🛡️ **Role-Based Access Control** | Membatasi tombol tambah proyek, edit, dan buat tugas hanya untuk akun *Project Manager*. |
+| 💾 **Database Persisten Lokal** | Menyimpan data proyek, tugas, dan histori aktivitas langsung ke memori lokal HP menggunakan `SharedPreferences` & `Gson`. Data tidak hilang saat aplikasi ditutup. |
+| 📊 **Statistik Dashboard Dinamis** | Visualisasi progress kerja *realtime*: jumlah proyek, tugas aktif, sedang dikerjakan, dan selesai. |
+| 📎 **File Picker Manager Terintegrasi** | Membuka File Manager bawaan HP untuk mengunggah berbagai tipe file (`*/*`) di detail tugas. |
+| 🔍 **Kolom Pencarian & Filter Prioritas** | Sistem pencarian independen di tab home yang menyaring tugas berdasarkan kata kunci tanpa memengaruhi daftar proyek. |
+| 👤 **Manajemen Token Sesi** | `TokenManager` mengenkripsi status login — sekali login, tidak perlu mengetik ulang kredensial. |
+
+</div>
+
+---
+
+## 📖 Panduan Penggunaan
+
+<details open>
+<summary><b>💻 A. Sebagai Project Manager (PM)</b></summary>
+<br/>
+
+1. **Login** — masuk menggunakan email `pm@worksync.com` dan password `pm123`.
+2. **Dashboard & Statistik** — pantau total proyek aktif dan jumlah tugas berdasarkan status di bagian atas dashboard.
+3. **Membuat Proyek Baru** — klik tombol **FAB ➕** di pojok kanan bawah dashboard → pilih **"New Project"** → isi nama proyek, nama klien, tenggat waktu, jumlah anggota → klik **Save Project**.
+4. **Melihat & Mengedit Proyek** — masuk ke tab **Projects**, klik proyek yang dibuat. Di halaman detail, klik **Edit** untuk mengubah data atau **Delete** untuk menghapus.
 5. **Membuat Tugas Baru**:
-    *   **Metode 1**: Klik **FAB ➕** di dashboard, pilih **"New Task"**, isi judul tugas, pilih proyek terkait pada dropdown, pilih tingkat prioritas, isi deskripsi tugas, lalu klik **Create Task**.
-    *   **Metode 2 (Rekomendasi)**: Buka detail proyek yang sudah ada, klik tombol **+ ADD TASK** di sebelah daftar Tasks. Dropdown nama proyek akan terisi secara otomatis.
+   - **Metode 1:** klik **FAB ➕** di dashboard → **"New Task"** → isi judul, pilih proyek, prioritas, deskripsi → **Create Task**.
+   - **Metode 2 (Rekomendasi):** buka detail proyek → klik **+ ADD TASK** — dropdown proyek otomatis terisi.
+
+</details>
+
+<details open>
+<summary><b>🏃 B. Sebagai Karyawan / Staff</b></summary>
+<br/>
+
+1. **Login** — masuk menggunakan email `staff@worksync.com` dan password `staff123`.
+2. **Melihat Tugas** — cek **Today's Tasks** di dashboard utama, atau buka tab **Tasks**.
+3. **Mengubah Status Tugas** — klik kartu tugas → halaman **Task Detail** → pilih status baru: **To Do**, **Doing**, atau **Done**.
+4. **Melampirkan Berkas Kerja** — klik **Attach File** → File Manager HP terbuka otomatis → pilih berkas (PDF, gambar, zip, dll).
+5. **Menyimpan Progress** — klik **SUBMIT TASK**. Status akan diperbarui secara permanen dan memicu notifikasi sistem.
+
+</details>
 
 ---
 
-### 🏃 B. Sebagai Karyawan / Staff
-1. **Login**: Masuk menggunakan email `staff@worksync.com` dan password `staff123`.
-2. **Melihat Tugas**: Lihat tugas yang ditugaskan kepada Anda hari ini di bagian **Today's Tasks** pada dashboard utama, atau masuk ke tab **Tasks** di bagian bawah.
-3. **Mengubah Status Tugas**: 
-    *   Klik kartu tugas yang ingin Anda kerjakan untuk masuk ke halaman **Task Detail**.
-    *   Pilih status pengerjaan baru pada pilihan toggle group: **To Do** (Belum dikerjakan), **Doing** (Sedang dikerjakan), atau **Done** (Selesai).
-4. **Melampirkan Berkas Kerja**: 
-    *   Di halaman detail tugas, klik **Attach File**.
-    *   Aplikasi akan otomatis membuka File Manager bawaan HP Anda.
-    *   Pilih berkas hasil kerja Anda (PDF, Gambar, Zip, dll.). Nama file yang dipilih akan langsung tertera di bawah tombol lampiran.
-5. **Menyimpan Progress**: Klik tombol **SUBMIT TASK** di bagian bawah. Status tugas akan diperbarui secara permanen dan memicu notifikasi sistem.
+## 🛠️ Build & Running (Android Studio)
+
+### Prasyarat Sistem
+
+| Requirement | Versi |
+| :--- | :--- |
+| Android Studio | Jellyfish / Koala (atau lebih baru) |
+| Android SDK | Level 34 (Android 14) |
+| JDK | 17 |
+
+### ▶️ Menjalankan Aplikasi
+
+```bash
+1. Buka folder proyek "WorkSyncc" di Android Studio
+2. Klik "Sync Project with Gradle Files" (pojok kanan atas)
+3. Aktifkan USB Debugging di Opsi Pengembang HP Android
+4. Hubungkan HP ke PC via kabel data
+5. Pilih perangkat di daftar device → klik Run ⏵  (atau Shift + F10)
+```
+
+### 📦 Membangun File APK
+
+```bash
+1. Klik menu "Build" pada toolbar
+2. Pilih "Build Bundle(s) / APK(s)" → "Build APK(s)"
+3. Tunggu proses kompilasi Gradle selesai
+4. Klik notifikasi "locate" untuk membuka folder app-debug.apk
+```
 
 ---
 
-## 🛠️ Panduan Build & Running (Android Studio)
+<div align="center">
 
-### Prasyarat System:
-*   Android Studio Jellyfish / Koala (atau versi terbaru)
-*   Android SDK Level 34 (Android 14)
-*   JDK 17
+### 🏗️ Arsitektur Data
 
-### Langkah Menjalankan Aplikasi:
-1.  Buka folder proyek `WorkSyncc` di Android Studio Anda.
-2.  Lakukan sinkronisasi Gradle (klik tombol **Sync Project with Gradle Files** di pojok kanan atas).
-3.  Aktifkan **USB Debugging** di menu Opsi Pengembang pada HP Android asli Anda, lalu hubungkan HP ke PC menggunakan kabel data.
-4.  Pilih HP Anda pada daftar perangkat di Android Studio, lalu klik tombol **Run** (ikon segitiga hijau ⏵) atau tekan **`Shift + F10`**.
+```
+Client  ──▶  Project  ──▶  Task
+```
 
-### Langkah Membangun File APK (`.apk`):
-1.  Klik menu **Build** pada toolbar atas Android Studio.
-2.  Pilih **Build Bundle(s) / APK(s)** ➔ **Build APK(s)**.
-3.  Tunggu proses kompilasi Gradle selesai.
-4.  Setelah selesai, klik pop-up **locate** di pojok kanan bawah untuk membuka folder file APK (`app-debug.apk`) Anda yang siap dipindahkan dan diinstal di HP.
+<br/>
+
+Made with ❤️ for **Pemrograman Mobile 1** — UAS Project
+
+</div>
