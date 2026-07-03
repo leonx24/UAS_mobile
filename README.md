@@ -39,7 +39,7 @@ Aplikasi ini menghadirkan desain UI modern bertema gelap (**Premium Glassmorphis
 | No. | Nama Lengkap | NIM | Kelas | Peran dalam Tim |
 | :---: | :--- | :---: | :---: | :--- |
 | 1 | **Affari Rizky F** | `24552011205` | `TIF RP 24C CID` | 📱 Android Developer |
-| 2 | **Nama Anggota 2** | `__________` | `__________` | 🎨 UI/UX Designer |
+| 2 | **Gholib Ahmad Refan** | `24552011164` | `TIF RP24C CID` | 🎨 UI/UX Designer |
 | 3 | **Nama Anggota 3** | `__________` | `__________` | 🧪 QA Engineer |
 
 </div>
