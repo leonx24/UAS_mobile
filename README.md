@@ -103,6 +103,7 @@ Aplikasi memiliki **2 peran utama** yang membatasi hak akses fitur pada dashboar
 | 🛡️ **Role-Based Access Control** | Membatasi tombol tambah proyek, edit, dan buat tugas hanya untuk akun *Project Manager*. |
 | 💾 **Database Persisten Lokal** | Menyimpan data proyek, tugas, dan histori aktivitas langsung ke memori lokal HP menggunakan `SharedPreferences` & `Gson`. Data tidak hilang saat aplikasi ditutup. |
 | 📊 **Statistik Dashboard Dinamis** | Visualisasi progress kerja *realtime*: jumlah proyek, tugas aktif, sedang dikerjakan, dan selesai. |
+|**🌓 Fitur Dark Mode & Light Mode** |Pengguna dapat beralih antara tema gelap dan terang melalui pengaturan di halaman profil untuk kenyamanan visual yang lebih baik.|
 | 📎 **File Picker Manager Terintegrasi** | Membuka File Manager bawaan HP untuk mengunggah berbagai tipe file (`*/*`) di detail tugas. |
 | 🔍 **Kolom Pencarian & Filter Prioritas** | Sistem pencarian independen di tab home yang menyaring tugas berdasarkan kata kunci tanpa memengaruhi daftar proyek. |
 | 👤 **Manajemen Token Sesi** | `TokenManager` mengenkripsi status login — sekali login, tidak perlu mengetik ulang kredensial. |
