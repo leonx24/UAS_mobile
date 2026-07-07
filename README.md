@@ -17,7 +17,7 @@
 </div>
 
 Link Video : 
----
+---https://drive.google.com/drive/folders/1kja0ZeNliYfXwJvGZtETmpA3G5KkJBak---
 
 ## 📌 Tentang Aplikasi
 
@@ -41,7 +41,7 @@ Aplikasi ini menghadirkan desain UI modern bertema gelap (**Premium Glassmorphis
 | :---: | :--- | :---: | :---: | :--- |
 | 1 | **Affari Rizky F** | `24552011205` | `TIF RP 24C CID` | 📱 Android Developer |
 | 2 | **Gholib Ahmad Refan** | `24552011164` | `TIF RP24C CID` | 🎨 UI/UX Designer |
-| 3 | **Nama Anggota 3** | `__________` | `__________` | 🧪 QA Engineer |
+| 3 | **Nabil Bulqini Rosanda** | `24552011332` | `TIF RP24C CID` | 🧪 QA Engineer |
 
 </div>
 
