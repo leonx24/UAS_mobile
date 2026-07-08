@@ -17,7 +17,7 @@
 </div>
 
 Link Video : 
----https://drive.google.com/drive/folders/1kja0ZeNliYfXwJvGZtETmpA3G5KkJBak---
+https://drive.google.com/drive/folders/1kja0ZeNliYfXwJvGZtETmpA3G5KkJBak
 
 ## 📌 Tentang Aplikasi
 
